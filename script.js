@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function() {
+    feather.replace();
+});
+
 $(document).ready(function() {
     $('form').on('submit', function(event) {
         event.preventDefault();
